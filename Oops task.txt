@@ -1,0 +1,35 @@
+//Write a “person” class to hold all the details.
+
+
+/*class Person {
+  constructor(firstName="", lastName="", age=0, gender="") {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.gender = gender;
+  }
+  
+}
+
+var person1 = new person("manoj", "kumar", 22, "male");
+console.log(person1.age)*/
+
+
+//write a class to calculate the uber price.
+
+/*class PriceCalculator {
+  constructor(baseFare, perMileFare, perMinuteFare, minimumFare) {
+    this.baseFare = baseFare;
+    this.perMileFare = perMileFare;
+    this.perMinuteFare = perMinuteFare;
+    this.minimumFare = minimumFare;
+  }
+  
+  calculatePrice(distance, time) {
+    let fare = this.baseFare + (distance * this.perMileFare) + (time * this.perMinuteFare);
+    return fare < this.minimumFare ? this.minimumFare : fare;
+  }
+}
+
+let calculator = new PriceCalculator(2, 1.5, 0.25, 5);
+console.log(calculator.calculatePrice(10, 20));*/
